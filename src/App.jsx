@@ -8,9 +8,9 @@ import RoomDetail from "./components/roomDetail";
 import Profile from "./components/profile";
 import AdminRoutes from "./components/admin";
 import Notifications from "./components/notifications";
-import CheckoutPage from './pages/payment/CheckoutPage';
-import PaymentPage from './pages/payment/PaymentPage';
-import PaymentSuccessPage from './pages/payment/PaymentSuccessPage';
+import CheckoutPage from './components/payment/CheckoutPage';
+import PaymentPage from './components/payment/PaymentPage';
+import PaymentSuccessPage from './components/payment/PaymentSuccessPage';
 import { AuthProvider, useAuth } from "./contexts/authcontext";
 import OfflineDetector from "./components/OfflineDetector";
 
