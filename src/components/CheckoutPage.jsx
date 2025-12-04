@@ -1,10 +1,10 @@
 // CheckoutPage.jsx - Booking Checkout with User Info
 import React, { useState, useEffect } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
-import { supabase } from '../../lib/supabaseClient';
-import { useAuth } from '../../contexts/authcontext';
-import Header from '../../components/Header';
-import Footer from '../../components/footer';
+import { supabase } from '../lib/supabaseClient';
+import { useAuth } from '../contexts/authcontext';
+import Header from '../components/Header';
+import Footer from '../components/footer';
 
 const CheckoutPage = () => {
   const navigate = useNavigate();

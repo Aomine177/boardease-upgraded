@@ -1,10 +1,10 @@
 // PaymentSuccessPage.jsx - Success & Database Updates
 import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate, useSearchParams } from 'react-router-dom';
-import { supabase } from '../../lib/supabaseClient';
-import { useAuth } from '../../contexts/authcontext';
-import Header from '../../components/Header';
-import Footer from '../../components/footer';
+import { supabase } from '../lib/supabaseClient';
+import { useAuth } from '../contexts/authcontext';
+import Header from '../components/Header';
+import Footer from '../components/footer';
 
 const PaymentSuccessPage = () => {
   const { id } = useParams(); // booking_request id

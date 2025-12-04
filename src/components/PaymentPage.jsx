@@ -3,10 +3,10 @@ import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { loadStripe } from '@stripe/stripe-js';
 import { Elements, PaymentElement, useStripe, useElements } from '@stripe/react-stripe-js';
-import { supabase } from '../../lib/supabaseClient';
-import { useAuth } from '../../contexts/authcontext';
-import Header from '../../components/Header';
-import Footer from '../../components/footer';
+import { supabase } from '../lib/supabaseClient';
+import { useAuth } from '../contexts/authcontext';
+import Header from '../components/Header';
+import Footer from '../components/footer';
 
 const stripePromise = loadStripe(import.meta.env.VITE_STRIPE_PUBLISHABLE_KEY);
 
